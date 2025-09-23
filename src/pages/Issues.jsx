@@ -144,7 +144,7 @@ const Issues = ({ reports, toggleReportStatus, clearAllReports }) => {
             {t('clear_all')}
           </button>
           <button className="btn small" onClick={downloadJSON}>
-            {t('export_json')}
+            {t('Export')}
           </button>
         </div>
       </div>
